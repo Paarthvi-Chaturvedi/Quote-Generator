@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+main{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container{
+    margin: 5em auto;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+}
+.container h1, p{
+    padding: 1em 2em;
+}
+
+
+#name-el{
+    text-align: right;
+}
+
+#generate{
+    padding: 0.5em 1em;
+    margin: 2em auto;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    font-style: italic;
+}
